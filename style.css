@@ -277,32 +277,33 @@ h3.my-profession{
 .home-img::after{
     content: '';
     position: absolute;
-    height: 80px;
-    width: 80px;
-    border-bottom: 10px solid var(--skin-color);
-    border-right: 10px solid var(--skin-color);
-    right: 20px;
-    bottom: -40px;
+    height: 15vh;
+    width: 15vw;
+    border-bottom: 5px solid var(--skin-color);
+    border-right: 5px solid var(--skin-color);
+    right: -20px;
+    bottom: -20px;
 
 }
 .home-img::before{
     content: '';
     position: absolute;
-    height: 80px;
-    width: 80px;
-    border-top: 10px solid var(--skin-color);
-    border-left: 10px solid var(--skin-color);
+    height: 15vh;
+    width: 15vw;
+    border-top: 5px solid var(--skin-color);
+    border-left: 5px solid var(--skin-color);
     left: -20px;
-    top: -40px;
+    top: -20px;
 
 }
 .home .home-img img{
-    margin: auto;
-    border-radius: 50px;
-    height: 50vh;
+    margin:15px;
+    border-radius: 10px;
+    height: 120vh;
+    width: 90vw;
 }
 .home-img:hover{
-    box-shadow: 0 0 20px var(--skin-color);
+    box-shadow: 0 0 100px var(--skin-color);
 }
 .about .about-content{
     flex: 0 0 100%;
